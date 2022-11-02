@@ -17,7 +17,6 @@ class Brain:
         if answer == self.question_list[self.question_number-1].answer[:1].lower():
             self.score += 1
             print("You got that right!")
-            print(f"You got {self.score} out of {self.question_number} correct\n")
         else:
             print("You got that wrong.")
-            print(f"You got {self.score} out of {self.question_number} correct\n")
+        print(f"You got {self.score} out of {self.question_number} correct\n")
